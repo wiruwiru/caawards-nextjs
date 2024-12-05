@@ -6,7 +6,7 @@ import { PicanteModel } from './PicanteModel';
 
 export function PicanteModelCanvas() {
     return (
-        <div className="w-[300px] h-[300px] mx-auto flex items-center justify-center">
+        <div className="w-[300px] h-[400px] mx-auto flex items-center justify-center">
             <Canvas
                 camera={{
                     position: [15, 1, 0],

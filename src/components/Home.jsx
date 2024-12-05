@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { PicanteModelCanvas } from "@/components/three/PicanteModelCanvas";
-import { EventTimer } from "./EventTimer";
+// import { EventTimer } from "./EventTimer";
 import { Sponsors } from "./Sponsors";
 import Link from "next/link"
 
@@ -16,11 +16,16 @@ export default function Home() {
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
           filter: 'brightness(0.6)'
-        }}
+        }} 
       />
       
       <div className="relative z-10 flex flex-col items-center min-h-screen">
-        <div className="flex-1 flex flex-col items-center justify-center w-full px-4 pt-20 pb-16">
+        <div className="flex-1 flex flex-col items-center justify-center px-4 pt-20 pb-16">
+          
+          <div className="mb-8">
+            <PicanteModelCanvas />
+          </div>
+
           <motion.h1
             className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 text-white text-center"
             initial={{ opacity: 0, y: -20 }}
@@ -37,16 +42,12 @@ export default function Home() {
             Premios a la comunidad de streamers de <span className="text-blue-500">Argentina</span>
           </motion.p>
 
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.8 }}>
             <EventTimer />
-          </motion.div>
-
-          <div className="w-full mb-8">
-            <PicanteModelCanvas />
-          </div>
+          </motion.div> */}
           
           <motion.div
             initial={{ opacity: 0, y: 20 }}

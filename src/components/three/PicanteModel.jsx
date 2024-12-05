@@ -4,7 +4,7 @@ import { useFrame } from '@react-three/fiber';
 
 export function PicanteModel() {
     const group = useRef();
-    const { scene, animations } = useGLTF('/assets/modelos/picantito.glb');
+    const { scene } = useGLTF('/assets/modelos/picantito.glb');
 
     useFrame(() => {
         if (group.current) {
@@ -12,5 +12,5 @@ export function PicanteModel() {
         }
     });
 
-    return <primitive object={scene} ref={group} scale={[2, 2, 2]} position={[0, -5, 0]} />;
+    return <primitive object={scene} ref={group} scale={[2.6, 2.6, 2.6]} position={[0, -7, 0]} />;
 }
