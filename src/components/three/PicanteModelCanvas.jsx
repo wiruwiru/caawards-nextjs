@@ -15,8 +15,8 @@ export function PicanteModelCanvas() {
                     far: 20
                 }}>
                 <ambientLight intensity={1.5} />
-                <directionalLight position={[5, 5, 5]} intensity={2} />
-                <directionalLight position={[-5, 5, -5]} intensity={1} />
+                <directionalLight position={[5, 5, 5]} intensity={25} />
+                <directionalLight position={[-5, -5, -5]} intensity={5} />
                 <pointLight position={[0, 5, 0]} intensity={1} />
                 <PicanteModel />
                 <OrbitControls enableZoom={false} enablePan={false} />
