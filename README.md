@@ -6,6 +6,7 @@ Preview: https://caawards.lucauy.dev
 
 ## ¿Como puedo iniciar el proyecto?
 Deben instalar primero las dependencias, con el comando: npm install --legacy-peer-deps
+
 Luego simplemente ejecutan el comando: npm run dev
 
 ## TO-DO
