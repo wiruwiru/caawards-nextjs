@@ -1,6 +1,6 @@
 # Coscu Army Awards
 Proyecto de pagina para los premios Coscu Army Awards, realizado en NextJS 15.
-> Es un proyecto open source, dedicado a la comunidad sin fines de lucro
+> Es un proyecto open source, dedicado a la comunidad sin fines de lucro (Iniciativa de [valenwerle](https://www.twitch.tv/valenwerle))
 
 Preview: https://caawards.lucauy.dev
 
